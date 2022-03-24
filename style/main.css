@@ -1,0 +1,430 @@
+/*------------- RESET -------------*/
+
+:root {
+    --vermelho: #B9090B;
+    --preto1: #141414;
+    --preto2: #808080;
+    --preto3: #6D6D6E;
+    --cinza: #6D6D6E;
+    --brancoTransparent: rgba(255, 255, 255, 30%);
+    --branco: #fff;
+}
+
+html {
+    line-height: 1.15;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--preto1);
+}
+
+main {
+    display: block;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+hr {
+    box-sizing: content-box;
+    /* 1 */
+    height: 0;
+    /* 1 */
+    overflow: visible;
+    /* 2 */
+}
+
+pre {
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
+}
+
+a {
+    background-color: transparent;
+    color: var(--branco) !important;
+}
+
+abbr[title] {
+    border-bottom: none;
+    /* 1 */
+    text-decoration: underline;
+    /* 2 */
+    text-decoration: underline dotted;
+    /* 2 */
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
+}
+
+small {
+    font-size: 80%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+img {
+    border-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    /* 1 */
+    font-size: 100%;
+    /* 1 */
+    line-height: 1.15;
+    /* 1 */
+    margin: 0;
+    /* 2 */
+}
+
+button,
+input {
+    /* 1 */
+    overflow: visible;
+}
+
+button,
+select {
+    /* 1 */
+    text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+    box-sizing: border-box;
+    /* 1 */
+    color: inherit;
+    /* 2 */
+    display: table;
+    /* 1 */
+    max-width: 100%;
+    /* 1 */
+    padding: 0;
+    /* 3 */
+    white-space: normal;
+    /* 1 */
+}
+
+progress {
+    vertical-align: baseline;
+}
+
+textarea {
+    overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+[type="search"] {
+    -webkit-appearance: textfield;
+    /* 1 */
+    outline-offset: -2px;
+    /* 2 */
+}
+
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    /* 1 */
+    font: inherit;
+    /* 2 */
+}
+
+details {
+    display: block;
+}
+
+summary {
+    display: list-item;
+}
+
+template {
+    display: none;
+}
+
+
+[hidden] {
+    display: none;
+}
+
+/*------------- FIM RESET -------------*/
+
+.container {
+    max-width: 100%;
+    padding: 0 !important;
+}
+
+.titulos-sections {
+    font-size: 20px !important;
+    color: rgba(255, 255, 255, 0.836) !important;
+    letter-spacing: 0.6px !important;
+}
+
+
+
+
+/*------------ Menu ------------*/
+
+.navbar {
+    background-color: var(--preto1) !important;
+}
+
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    padding: 0 6rem !important;
+}
+
+.navbar-brand img {
+    width: 120px;
+    padding-right: 20px !important;
+}
+
+.nav-link {
+    display: inline !important;
+    color: var(--branco) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.836) !important;
+    font-size: 14px;
+}
+
+.navbar-light .navbar-nav .nav-link .active a:active {
+    font-weight: bold !important;
+    color: var(--branco) !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--preto2) !important;
+    transition: 0.7s;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: var(--branco) !important;
+    font-weight: bold;
+}
+
+
+/* Barra Pesquisa */
+
+.input-group {
+    width: 25% !important;
+}
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    max-width: 250px !important;
+}
+
+.input-group>.form-control, .input-group>.form-select {
+    width: 20px !important;
+}
+
+.btn-outline-secondary {
+    border: none;
+}
+
+.btn-outline-secondary:hover {
+    background: var(--preto2);
+}
+
+
+/* Notificação */
+
+.btn-primary {
+    background-color: transparent;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: var(--preto2);
+}
+
+/* Perfil */
+
+.dropdown-menu {
+    background: #141414d0;
+    border-radius: 0%;
+    border: none;
+    padding: 30px 0;
+}
+
+.dropdown-item {
+    color: var(--branco);
+    font-size: 14px;
+}
+
+.dropdown-item:hover {
+   text-decoration: underline;
+   background: none;
+}
+
+.dropdown-divider {
+    border-top: var(--branco);
+    opacity: 100% !important;
+}
+
+.li-perfil {
+    display: flex;
+    padding: 10px;
+}
+
+.navbar-toggler {
+    background: var(--vermelho);
+    border: none;
+}
+  
+
+/*------------ Menu ------------*/
+
+
+/*------------ Filme Capa ------------*/
+
+.filme-capa {
+    color: var(--branco);
+    background-image: url(/img/capa_filme.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.txt-filmeCapa {
+    padding: 2rem 0;
+    max-width: 40%;
+    font-size: 21px;
+    line-height: 28px;
+}
+
+.titulo-filmeCapa img {
+    width: 550px;
+}
+
+.top10-filmeCapa {
+    display: flex;
+}
+
+.top10-filmeCapa h3 {
+    font-weight: bold;
+    letter-spacing: -1.4px;
+    font-size: 26px;
+    color: var(--branco);
+}
+
+.btn-filmeCapa button {
+    background: var(--branco);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-filmeCapa .btn-infos {
+    background: var(--brancoTransparent);
+    color: var(--branco);
+}
+
+.btn-filmeCapa button:hover {
+    background: #afafaf9f;
+}
+
+
+/*------------ Carrossel Filmes ------------*/
+
+.container .carrossel-filmes {
+    background: red;
+    height: 400px;
+}
+.capa-filmes {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+
+
