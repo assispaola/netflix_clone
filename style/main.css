@@ -364,7 +364,7 @@ template {
 
 .filme-capa {
     color: var(--branco);
-    background-image: url('./img/capa_filme.png');
+    background-image: url("https://bl3302files.storage.live.com/y4mTVls3PZYeHCQ35s6mWFd4shrhwhToD_5o_ihTM6MoRiA2l9dyjwbsCAXLNjoDSwPBBcbS7dukA3e2QeU59rSZqDiqP6YHfqZiBRcpaZVxDgzYwz2O2365KoBl5nTs-hviMrSQoHgZyIGRfYRulo7AE6HkdcZGUgwmmWGXicU62Lrh1e2kfjyOXNuibOww35H?width=1280&height=720&cropmode=none");
     background-size: cover;
     height: 100%;
     width: 100vw;
