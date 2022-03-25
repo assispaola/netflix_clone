@@ -1,0 +1,17 @@
+@media screen and (min-width: 500px) and (max-width: 900px) {
+    .navbar .container-fluid {
+        padding: 0 2rem !important;
+    }
+
+    .filme-capa .container-fluid {
+        padding: 0 2rem !important;
+    }
+
+    .filme-capa .txt-filmeCapa {
+        max-width: 90% !important;
+    }
+
+    .titulo-filmeCapa img {
+        width: 300px !important;
+    }
+}

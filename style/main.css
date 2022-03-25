@@ -367,7 +367,7 @@ template {
     background-image: url(/img/capa_filme.png);
     background-size: cover;
     height: 100%;
-    width: 100%;
+    width: 100vw;
 }
 
 .txt-filmeCapa {
@@ -416,15 +416,46 @@ template {
 
 /*------------ Carrossel Filmes ------------*/
 
-.container .carrossel-filmes {
-    background: red;
-    height: 400px;
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: flex !important;
 }
-.capa-filmes {
-    height: 100%;
+
+.carousel-item img {
+    padding: 0 8px;
+    width: 300px;
+    height: 270px;
+
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+    transition: transform .2s;
+}
+
+.carousel-item img:hover {
+    opacity: .5;
+    transform: scale(1.1);
+
+}
+
+
+
+
+hr {
+    color: var(--preto2);
+    border: 2px solid;
     width: 100%;
-    display: block;
+    height: 0px !important;
+    opacity: none !important;
+    margin-top: 0 !important;
 }
 
-
+.rodape {
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--preto2);
+    padding: 40px 0;
+}
 
