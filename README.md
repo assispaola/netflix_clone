@@ -1,1 +1,1 @@
-<img src="https://bl3302files.storage.live.com/y4mp8QtYNqn_3jecPI91Toc8d7gS02STgUh8Sp6Mp7jxL2_3W4aOb841kuPaPkEJr18_LWOKMHYu3hSbotnn5kJ-FmXcam0ZngYAVMoGZ_Fo_xxbtP8RJK6zoC8NL63bv7idpEfkslwN0CtIrndaMaiT2VTD8ayutleedSnZUv-O5jXaYSFbEhnKGyxCYSINRct?width=6000&height=4500&cropmode=none" align="center" alt="">
+![capa-projeto](https://user-images.githubusercontent.com/61297295/160064503-72641dd5-b8a6-4f59-9a11-ca3de6cf626f.png)
