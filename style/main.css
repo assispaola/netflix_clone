@@ -364,7 +364,7 @@ template {
 
 .filme-capa {
     color: var(--branco);
-    background-image: url(./img/capa_filme.png);
+    background-image: url('./img/capa_filme.png');
     background-size: cover;
     height: 100%;
     width: 100vw;
